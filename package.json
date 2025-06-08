@@ -1,0 +1,28 @@
+{
+  "name": "react-design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "selim0915",
+  "license": "MIT",
+  "description": "React 기반의 디자인 시스템",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "engines": {
+    "node": "18.19.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/addon-onboarding": "^8.6.14",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/blocks": "^8.6.14",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-webpack5": "^8.6.14",
+    "@storybook/test": "^8.6.14",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.6.14",
+    "styled-components": "^6.1.18"
+  }
+}
