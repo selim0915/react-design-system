@@ -7,7 +7,8 @@
   "description": "React 기반의 디자인 시스템",
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
   },
   "engines": {
     "node": "18.19.0"
@@ -21,6 +22,7 @@
     "@storybook/react": "^8.6.14",
     "@storybook/react-webpack5": "^8.6.14",
     "@storybook/test": "^8.6.14",
+    "chromatic": "^12.1.1",
     "prop-types": "^15.8.1",
     "storybook": "^8.6.14",
     "styled-components": "^6.1.18"
